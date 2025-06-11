@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em Unit</title>
+    <style>
+        body{
+            font-size: 100px;
+        }
+        #outer{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            font-size: 25px;
+        }
+        #inner{
+            background-color: blueviolet;
+            width: 70%;
+            height: 50%;
+            font-size: 2em; 
+            /*
+                1em = 25px
+                2em = 50px
+            */
+        }
+    </style>
+</head>
+<body>
+    Body
+    <div id="outer">
+        Outer
+        <div id="inner">
+            Inner
+        </div>
+    </div>
+</body>
+</html>
