@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rem Unit</title>
+    <style>
+        html{
+            font-size: 62.5%;
+            /*
+                100% = 16px
+                6.25% = 1px
+                10px = 6.25 * 10 = 62.5%
+            */
+        }
+        body{
+            font-size: 3rem;
+        }
+        #outer{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            font-size: 3rem;
+        }
+        #inner{
+            background-color: blueviolet;
+            width: 70%;
+            height: 50%;
+            font-size: 2rem; 
+            /*
+                1em = 50px
+                2em = 100px
+            */
+        }
+    </style>
+</head>
+<body>
+    Body
+    <div id="outer">
+        Outer
+        <div id="inner">
+            Inner
+        </div>
+    </div>
+</body>
+</html>
